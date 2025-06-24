@@ -220,8 +220,8 @@ const Pinout pinout = {
     .joybus_data = 28,
     .mux = -1,
     .nunchuk_detect = -1,
-    .nunchuk_sda = -1,
-    .nunchuk_scl = -1,
+    .nunchuk_sda = 8,
+    .nunchuk_scl = 9,
 };
 
 void setup() {
